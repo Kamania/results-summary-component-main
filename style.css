@@ -161,6 +161,10 @@ main section {
     font-size: 1rem;
 }
 
+.btn-continue:hover{
+    background: var(--primary-cobalt-blue);
+}
+
 @media (min-width: 576px) {
     html, body {
         align-content: center;
