@@ -72,7 +72,7 @@ header p {
 }
 
 .denominator {
-    opacity: .5;
+    opacity: .3;
     font-size: 0.9rem;
 }
 
@@ -80,6 +80,7 @@ header p {
     font-size: 1.4rem;
     font-weight: 500;
     padding: .5em;
+    opacity: 1;
 }
 
 .description {
@@ -158,4 +159,23 @@ main section {
     border-radius: 100px;
     font-weight: 700;
     font-size: 1rem;
+}
+
+@media (min-width: 576px) {
+    html, body {
+        align-content: center;
+    }
+
+    .container{
+        grid-template-columns: 1fr 1fr;
+        max-width: 650px;
+        border-radius: 20px;
+        box-shadow: 13px 5px 44px -31px rgba(48,59,90,0.51);
+        -webkit-box-shadow: 13px 5px 44px -31px rgba(48,59,90,0.51);
+        -moz-box-shadow: 13px 5px 44px -31px rgba(48,59,90,0.51);
+    }
+
+    header{
+        border-radius: 20px;
+    }
 }
